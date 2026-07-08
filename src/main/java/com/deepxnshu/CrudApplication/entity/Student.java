@@ -13,6 +13,15 @@ private String name;
 private String subject ;
 private String email;
 private int rollNo;
+private boolean deleted;
+
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
+    }
 
     public String getName() {
         return name;
